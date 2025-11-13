@@ -1,23 +1,18 @@
-# Job RAG System - Embeddings & Data
-embeddings/
-*.pkl
-*.npy
-*.bin
-
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
 venv/
+env/
 ENV/
-.venv
+*.egg-info/
+dist/
+build/
 
 # Environment variables
 .env
-.env.local
 
 # IDE
 .vscode/
@@ -25,16 +20,9 @@ ENV/
 *.swp
 *.swo
 
-# Frontend
-frontend/node_modules/
-frontend/build/
-frontend/.env.local
-frontend/.env.production.local
-
-# Logs
-*.log
-npm-debug.log*
-
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
